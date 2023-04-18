@@ -6,7 +6,7 @@
     c_uint32_t REMOVE  = 2;
     
 
-    c_string SERVER_DOMAIN           = "silvavinicius.com.br";
+    c_string SERVER_DOMAIN           = "localhost";
     c_string DOWNLOAD_DIR            = "/tmp/";
     c_string USER_DOWNLOAD           = "vipak";
     c_string REPOSITORY_NAME         = "apps"; 
