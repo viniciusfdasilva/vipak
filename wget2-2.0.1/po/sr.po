@@ -1,0 +1,2321 @@
+# Serbian translation for wget.
+# Copyright © 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the wget2 package.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020–2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: wget2-2.0.0\n"
+"Report-Msgid-Bugs-To: bug-wget2@gnu.org\n"
+"POT-Creation-Date: 2022-05-27 11:46+0200\n"
+"PO-Revision-Date: 2021-12-13 09:07+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <(nothing)>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+
+#: lib/error.c:195
+msgid "Unknown system error"
+msgstr "Непозната грешка система"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Породица адреса за назив домаћина није подржана"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Привремени неуспех одређивања имена"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Неисправна вредност за аи_опције"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Непоправљива грешка при одређивању назива"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "аи_породица није подржана"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Расподела меморије није успела"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Ниједна адреса није придружена називу домаћина"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Није познат назив или сервер"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Назив сервера није подржан за аи_врступрикључнице"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "аи_врстаприкључнице није подржана"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Грешка система"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Међумеморија аргумента је премала"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Захтев обрађивања је у току"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Захтев је отказан"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Захтев није отказан"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Сви захтеви су готови"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Прекинуто сигналом"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Ниска параметра није исправно кодирана"
+
+#: lib/gai_strerror.c:87 libwget/error.c:57
+msgid "Unknown error"
+msgstr "Непозната грешка"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr "не могу да снимим текући радни директоријум"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "нисам успео да се вратим на почетни радни директоријум"
+
+#: lib/os2-spawn.c:46
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "„_open_osfhandle“ није успело"
+
+#: lib/os2-spawn.c:83
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "не могу да повратим фд %d: „dup2“ није успело"
+
+#: lib/regcomp.c:122 libwget/error.c:44
+msgid "Success"
+msgstr "Успело је"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "Нема подударања"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "Неисправан регуларни израз"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "Неисправан знак поретка"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "Неисправан назив разреда знака"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr "Пратећа контра коса црта"
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "Неисправна повратна упута"
+
+#: lib/regcomp.c:143
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Не одговара [, [^, [:, [., или [="
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "Не одговара ( или \\("
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "Не одговара \\{"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "Неисправан садржај \\{\\}"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "Неисправан крај опсега"
+
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "Меморија је потрошена"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "Неправилан претходећи регуларан израз"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "Прерани крај регуларног израза"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "Регуларан израз је превелик"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr "Не одговара ) или \\)"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "Нема претходног регуларног израза"
+
+#: lib/spawn-pipe.c:217 lib/spawn-pipe.c:220 lib/spawn-pipe.c:459
+#: lib/spawn-pipe.c:462
+#, c-format
+msgid "cannot create pipe"
+msgstr "не могу да направим спојку"
+
+#: lib/spawn-pipe.c:597 lib/wait-process.c:291 lib/wait-process.c:365
+#, c-format
+msgid "%s subprocess failed"
+msgstr "%s потпроцес није успео"
+
+#: lib/wait-process.c:232 lib/wait-process.c:264 lib/wait-process.c:326
+#, c-format
+msgid "%s subprocess"
+msgstr "%s потпроцес"
+
+#: lib/wait-process.c:283 lib/wait-process.c:355
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "%s потпроцес је добио кобни сигнал %d"
+
+#: lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "меморија је потрошена"
+
+#: libwget/cookie.c:408
+#, c-format
+msgid "Incomplete cookie entry: %s\n"
+msgstr "Непотпун унос колачића: %s\n"
+
+#: libwget/cookie.c:440
+msgid "Failed to read cookies\n"
+msgstr "Нисам успео да прочитам колачиће\n"
+
+#: libwget/cookie.c:499
+#, c-format
+msgid "Failed to write cookie file '%s'\n"
+msgstr "Нисам успео да запишем датотеку колачића „%s“\n"
+
+#: libwget/cookie_parse.c:363
+msgid "Cookie without name or assignment ignored\n"
+msgstr "Колачић без назива или доделе је занемарен\n"
+
+#: libwget/css.c:152
+#, c-format
+msgid "Unknown token after @charset: %d\n"
+msgstr "Непозната скупина после „@charset“: %d\n"
+
+#: libwget/css.c:194 libwget/io.c:326 libwget/xml.c:675
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "Нисам успео да отворим „%s“\n"
+
+#: libwget/css_url.c:102
+#, c-format
+msgid "Cannot resolve relative URI '%s'\n"
+msgstr "Не могу да решим релативну путању „%s“\n"
+
+#: libwget/decompressor.c:122
+msgid "Failed to init gzip decompression\n"
+msgstr "Нисам успео да покренем гзип распакивање\n"
+
+#: libwget/decompressor.c:158
+#, fuzzy
+msgid "Failed to re-init deflate/gzip decompression\n"
+msgstr "Нисам успео да покренем „deflate“ распакивање\n"
+
+#: libwget/decompressor.c:174
+#, c-format
+msgid "Failed to uncompress gzip stream (%d)\n"
+msgstr "Нисам успео да распакујем гзип ток (%d)\n"
+
+#: libwget/decompressor.c:183
+#, c-format
+msgid "Failed to close gzip stream (%d)\n"
+msgstr "Нисам успео да затворим гзип ток (%d)\n"
+
+#: libwget/decompressor.c:192
+msgid "Failed to init deflate decompression\n"
+msgstr "Нисам успео да покренем „deflate“ распакивање\n"
+
+#: libwget/decompressor.c:207
+msgid "Failed to init LZMA decompression\n"
+msgstr "Нисам успео да покренем ЛЗМА распакивање\n"
+
+#: libwget/decompressor.c:246
+#, c-format
+msgid "Failed to uncompress LZMA stream (%d)\n"
+msgstr "Нисам успео да распакујем ЛЗМА ток (%d)\n"
+
+#: libwget/decompressor.c:260
+msgid "Failed to init Brotli decompression\n"
+msgstr "Нисам успео да покренем Бротли распакивање\n"
+
+#: libwget/decompressor.c:303
+#, c-format
+msgid "Failed to uncompress Brotli stream (%u): %s\n"
+msgstr "Нисам успео да распакујем Бротли ток (%u): %s\n"
+
+#: libwget/decompressor.c:318
+msgid "Failed to create Zstandard decompression\n"
+msgstr "Нисам успео да створим распакивање Z-стандарда\n"
+
+#: libwget/decompressor.c:324
+#, c-format
+msgid "Failed to init Zstandard decompression: %s\n"
+msgstr "Нисам успео да покренем распакивање Z-стандарда: %s\n"
+
+#: libwget/decompressor.c:355
+#, c-format
+msgid "Failed to uncompress Zstandard stream: %s\n"
+msgstr "Нисам успео да распакујем ток Z-стандарда: %s\n"
+
+#: libwget/decompressor.c:376
+msgid "Failed to create lzip decompression\n"
+msgstr "Нисам успео да створим „lzip“ распакивање\n"
+
+#: libwget/decompressor.c:383
+#, c-format
+msgid "Failed to create lzip decompression: %d %s\n"
+msgstr "Нисам успео да створим „lzip“ распакивање: %d %s\n"
+
+#: libwget/decompressor.c:404
+#, c-format
+msgid "Failed to uncompress lzip stream: %d %s\n"
+msgstr "Нисам успео да распакујем „lzip“ ток: %d %s\n"
+
+#: libwget/decompressor.c:459
+msgid "Failed to init bzip2 decompression\n"
+msgstr "Нисам успео да покренем бзип2 распакивање\n"
+
+#: libwget/decompressor.c:498
+#, c-format
+msgid "Failed to uncompress bzip2 stream (%d)\n"
+msgstr "Нисам успео да распакујем бзип2 ток (%d)\n"
+
+#: libwget/dns.c:261
+#, fuzzy, c-format
+msgid "Failed to resolve '%s:%d': %s\n"
+msgstr "Нисам успео да решим „%s“:%d: %s\n"
+
+#: libwget/dns.c:344
+#, fuzzy, c-format
+msgid "Failed to resolve '%s' (%s)\n"
+msgstr "Нисам успео да решим „%s“ (%s)\n"
+
+#: libwget/encoding.c:112
+#, c-format
+msgid "Failed to transcode '%s' string into '%s' (%d)\n"
+msgstr "Нисам успео да прекодирам „%s“ ниску у „%s“ (%d)\n"
+
+#: libwget/encoding.c:124
+#, c-format
+msgid "Failed to prepare transcoding '%s' into '%s' (%d)\n"
+msgstr "Нисам успео да припремим прекодирање „%s“ у „%s“ (%d)\n"
+
+#: libwget/encoding.c:261
+#, c-format
+msgid "toASCII(%s) failed (%d): %s\n"
+msgstr "„toASCII(%s)“ није успело (%d): %s\n"
+
+#: libwget/encoding.c:280
+#, c-format
+msgid "toASCII failed (%d): %s\n"
+msgstr "„toASCII“ није успело (%d): %s\n"
+
+#: libwget/encoding.c:283
+#, c-format
+msgid "Invalid UTF-8 sequence not converted: '%s'\n"
+msgstr "Неисправан УТФ-8 низ није претворен: „%s“\n"
+
+#: libwget/encoding.c:287
+#, c-format
+msgid "toASCII not available: '%s'\n"
+msgstr "„toASCII“ није доступно: „%s“\n"
+
+#: libwget/error.c:45
+msgid "General error"
+msgstr "Општа грешка"
+
+#: libwget/error.c:46
+msgid "No memory"
+msgstr "Нема меморије"
+
+#: libwget/error.c:47
+msgid "Invalid value"
+msgstr "Неисправна вредност"
+
+#: libwget/error.c:48
+msgid "Timeout"
+msgstr "Временски рок"
+
+#: libwget/error.c:49
+msgid "Connect error"
+msgstr "Грешка повезивања"
+
+#: libwget/error.c:50
+msgid "Handshake error"
+msgstr "Грешка руковања"
+
+#: libwget/error.c:51
+msgid "Certificate error"
+msgstr "Грешка уверења"
+
+#: libwget/error.c:52
+msgid "libwget has been built without TLS support"
+msgstr "„libwget“ је изграђена без ТЛС подршке"
+
+#: libwget/error.c:53
+msgid "Failed to parse XML"
+msgstr "Нисам успео да обрадим „XML“"
+
+#: libwget/error.c:54
+msgid "Failed to open file"
+msgstr "Нисам успео да отворим датотеку"
+
+#: libwget/error.c:55
+msgid "I/O error"
+msgstr "У/И грешка"
+
+#: libwget/error.c:56
+msgid "Unsupported function"
+msgstr "Неподржана функција"
+
+#: libwget/hash_printf.c:74
+#, c-format
+msgid "Failed to hash (%d)\n"
+msgstr "Нисам успео да хеширам (%d)\n"
+
+#: libwget/hashfile.c:92
+#, c-format
+msgid "Unknown hash type '%s'\n"
+msgstr "Непозната врста хеша „%s“\n"
+
+#: libwget/hashfile.c:809
+#, c-format
+msgid "%s: Hash init failed for type '%s': %s\n"
+msgstr "%s: Покретање хеша није успело за врсту „%s“: %s\n"
+
+#: libwget/hashfile.c:815
+#, c-format
+msgid "%s: Hash update failed: %s\n"
+msgstr "%s: Освежавање хеша није успело: %s\n"
+
+#: libwget/hashfile.c:826
+#, c-format
+msgid "%s: Hash finalization failed: %s\n"
+msgstr "%s: Довршавање хеша није успело: %s\n"
+
+#: libwget/hashfile.c:831
+#, c-format
+msgid "%s: Failed to read %llu bytes\n"
+msgstr "%s: Нисам успео да прочитам %llu бајта\n"
+
+#: libwget/hpkp_db.c:306
+#, c-format
+msgid "HPKP: could not parse host line '%s'\n"
+msgstr "HPKP: не могу да обрадим линију домаћина „%s“\n"
+
+#: libwget/hpkp_db.c:312
+#, c-format
+msgid "HPKP: could not parse pin line '%s'\n"
+msgstr "HPKP: не могу да обрадим линију пина „%s“\n"
+
+#: libwget/hpkp_db.c:355
+msgid "Failed to read HPKP data\n"
+msgstr "Нисам успео да прочитам „HPKP“ податке\n"
+
+#: libwget/hpkp_db.c:445
+#, c-format
+msgid "Failed to write HPKP file '%s'\n"
+msgstr "Нисам успео да запишем „HPKP“ датотеку „%s“\n"
+
+#: libwget/hsts.c:412 libwget/tls_session.c:332
+#, c-format
+msgid "Failed to parse HSTS line: '%s'\n"
+msgstr "Нисам успео да обрадим „HSTS“ линију: „%s“\n"
+
+#: libwget/hsts.c:452
+msgid "Failed to read HSTS data\n"
+msgstr "Нисам успео да прочитам „HSTS“ податке\n"
+
+#: libwget/hsts.c:515
+#, c-format
+msgid "Failed to write HSTS file '%s'\n"
+msgstr "Нисам успео да запишем „HSTS“ датотеку „%s“\n"
+
+#: libwget/http.c:178 libwget/http.c:188 libwget/http.c:197 libwget/http.c:206
+#, c-format
+msgid "%s: Unknown key %d (or value must not be an integer)\n"
+msgstr "%s: Непознат кључ %d (или вредност не сме бити цео број)\n"
+
+#: libwget/http.c:303
+#, c-format
+msgid "Unsupported quality of protection '%s'.\n"
+msgstr "Неподржан квалитет заштите „%s“.\n"
+
+#: libwget/http.c:314
+#, c-format
+msgid "Unsupported algorithm '%s'.\n"
+msgstr "Неподржан алгоритам „%s“.\n"
+
+#: libwget/http.c:409
+#, c-format
+msgid "Decompress failed [host: %s - resource: %s]\n"
+msgstr "Распакивање није успело [домаћин: %s – извориште: %s]\n"
+
+#: libwget/http.c:667
+msgid "Failed to create HTTP2 callbacks\n"
+msgstr "Нисам успео да направим „HTTP2“ повратне позиве\n"
+
+#: libwget/http.c:677
+#, c-format
+msgid "Failed to create HTTP2 client session (%d)\n"
+msgstr "Нисам успео да направим сесију „HTTP2“ клијента (%d)\n"
+
+#: libwget/http.c:689
+#, c-format
+msgid "Failed to submit HTTP2 client settings (%d)\n"
+msgstr "Нисам успео да предам поставке „HTTP2“ клијента (%d)\n"
+
+#: libwget/http.c:724
+#, c-format
+msgid "Failed to terminate HTTP2 session (%d)\n"
+msgstr "Нисам успео да окончам „HTTP2“ сесију (%d)\n"
+
+#: libwget/http.c:838
+msgid "Failed to submit HTTP2 request\n"
+msgstr "Нисам успео да предам „HTTP2“ захтев\n"
+
+#: libwget/http.c:853
+msgid "Failed to create request buffer\n"
+msgstr "Нисам успео да направим међумеморију захтева\n"
+
+#: libwget/http.c:1055
+#, c-format
+msgid "Failed to allocate %zu bytes\n"
+msgstr "Нисам успео да доделим %zu бајта\n"
+
+#: libwget/http.c:1150
+#, fuzzy, c-format
+msgid "Failed to allocate %zu bytes (%s)\n"
+msgstr "Нисам успео да доделим %zu бајта\n"
+
+#: libwget/http.c:1173
+#, fuzzy, c-format
+msgid "Failed to convert chunk size '%.31s' (%s)\n"
+msgstr "Нисам успео да претворим величину делића „%.31s“\n"
+
+#: libwget/http.c:1211
+#, fuzzy, c-format
+msgid "Chunk size overflow: %zX (%s)\n"
+msgstr "Прекорачење величине делића: %zX\n"
+
+#: libwget/http.c:1253
+#, fuzzy, c-format
+msgid "Expected end-of-chunk not found (%s)\n"
+msgstr "Нисам нашао очекивани крај делића\n"
+
+#: libwget/http.c:1301
+#, fuzzy, c-format
+msgid "Failed to read %zd bytes (%d) (%s)\n"
+msgstr "Нисам успео да прочитам %zd бајта (%d)\n"
+
+#: libwget/http.c:1307
+#, fuzzy, c-format
+msgid "Just got %zu of %zu bytes (%s)\n"
+msgstr "Добих само %zu од %zu бајта\n"
+
+#: libwget/http.c:1312
+#, fuzzy, c-format
+msgid "Body too large: %zu instead of %zu bytes (%s)\n"
+msgstr "Тело је превелико: %zu уместо %zu бајта\n"
+
+#: libwget/http_highlevel.c:45 libwget/http_highlevel.c:60
+#, c-format
+msgid "Failed to write %zu bytes of data (%d)\n"
+msgstr "Нисам успео да запишем %zu бајта података (%d)\n"
+
+#: libwget/http_highlevel.c:161
+#, c-format
+msgid "Unknown option %d\n"
+msgstr "Непозната опција %d\n"
+
+#: libwget/http_highlevel.c:171
+msgid "Error parsing URL\n"
+msgstr "Грешка обрађивања адресе\n"
+
+#: libwget/http_highlevel.c:178
+msgid "Missing URL/URI\n"
+msgstr "Недостаје адреса/путања\n"
+
+#: libwget/http_parse.c:863 libwget/http_parse.c:888
+#, c-format
+msgid "Failed to parse date '%s'\n"
+msgstr "Нисам успео да обрадим датум „%s“\n"
+
+#: libwget/http_parse.c:1271
+msgid "HTTP response header not found\n"
+msgstr "Нисам нашао заглавље „HTTP“ одговора\n"
+
+#: libwget/init.c:136 src/options.c:3583
+#, c-format
+msgid "Failed to init DNS cache (%d)"
+msgstr "Нисам успео да покренем ДНС оставу (%d)"
+
+#: libwget/init.c:171 libwget/init.c:245 libwget/init.c:270 libwget/init.c:285
+#, c-format
+msgid "%s: Unknown option %d"
+msgstr "%s: Непозната опција %d"
+
+#: libwget/init.c:190
+#, c-format
+msgid "%s: Failed to init networking (%d)"
+msgstr "%s: Нисам успео да покренем умрежавање (%d)"
+
+#: libwget/init.c:228
+#, c-format
+msgid "%s: Failed to deinit networking (%d)"
+msgstr "%s: Нисам успео да поништим покретање умрежавања (%d)"
+
+#: libwget/io.c:126
+#, c-format
+msgid "%s: Failed to read, error %d\n"
+msgstr "%s: Нисам успео да прочитам, грешка %d\n"
+
+#: libwget/io.c:319
+#, c-format
+msgid ""
+"WARNING: Size of %s changed from %lld to %lld while reading. This may lead "
+"to unwanted results !\n"
+msgstr ""
+"УПОЗОРЕЊЕ: Величина за „%s“ је измењена из %lld у %lld приликом читања. Ово "
+"може довести до нежељених резултата !\n"
+
+#: libwget/io.c:322
+#, c-format
+msgid "Failed to fstat %s\n"
+msgstr "Нисам успео да одрадим „fstat %s“\n"
+
+#: libwget/io.c:410
+#, c-format
+msgid "Failed to create '%s' (%d)\n"
+msgstr "Нисам успео да направим „%s“ (%d)\n"
+
+#: libwget/io.c:418
+#, c-format
+msgid "Failed to lock '%s' (%d)\n"
+msgstr "Нисам успео да закључам „%s“ (%d)\n"
+
+#: libwget/io.c:430
+#, c-format
+msgid "Failed to read open '%s' (%d)\n"
+msgstr "Нисам успео да прочитам отварање „%s“ (%d)\n"
+
+#: libwget/io.c:453
+#, c-format
+msgid "Failed to open tmpfile '%s' (%d)\n"
+msgstr "Не могу да отворим привремену датотеку „%s“ (%d)\n"
+
+#: libwget/io.c:462
+#, c-format
+msgid "Failed to write open '%s' (%d)\n"
+msgstr "Нисам успео да запишем отварање „%s“ (%d)\n"
+
+#: libwget/io.c:478
+#, c-format
+msgid "Failed to write/close '%s' (%d)\n"
+msgstr "Нисам успео да запишем/затворим „%s“ (%d)\n"
+
+#: libwget/io.c:485
+#, c-format
+msgid "Failed to rename '%s' to '%s' (%d)\n"
+msgstr "Нисам успео да преименујем „%s“ у „%s“ (%d)\n"
+
+#: libwget/io.c:486
+#, c-format
+msgid "Take manually care for '%s'\n"
+msgstr "Ручно се побрините за „%s“\n"
+
+#: libwget/iri.c:680
+#, c-format
+msgid "Missing host/domain in URI '%s'\n"
+msgstr "Недостаје домаћин/домен у путањи „%s“\n"
+
+#: libwget/net.c:592 libwget/net.c:600
+msgid "Failed to set socket to non-blocking\n"
+msgstr "Нисам успео да поставим прикључницу на не-блокирање\n"
+
+#: libwget/net.c:597
+msgid "Failed to get socket flags\n"
+msgstr "Нисам успео да добавим заставице прикључнице\n"
+
+#: libwget/net.c:609
+msgid "Failed to set socket option REUSEADDR\n"
+msgstr "Нисам успео да поставим за прикључницу опцију „REUSEADDR“\n"
+
+#: libwget/net.c:613
+msgid "Failed to set socket option NODELAY\n"
+msgstr "Нисам успео да поставим за прикључницу опцију „NODELAY“\n"
+
+#: libwget/net.c:618
+msgid "Failed to set socket option BINDTODEVICE\n"
+msgstr "Нисам успео да поставим „BINDTODEVICE“ опцију прикључнице\n"
+
+#: libwget/net.c:623
+msgid "Unsupported socket option BINDTODEVICE\n"
+msgstr "Неподржана „BINDTODEVICE“ опција прикључнице\n"
+
+#: libwget/net.c:719
+#, c-format
+msgid "Failed to bind (%d)\n"
+msgstr "Нисам успео да повежем (%d)\n"
+
+#: libwget/net.c:755 libwget/net.c:925
+#, c-format
+msgid "Failed to connect (%d)\n"
+msgstr "Нисам успео да се повежем (%d)\n"
+
+#: libwget/net.c:786
+#, c-format
+msgid "Failed to create socket (%d)\n"
+msgstr "Нисам успео да направим прикључницу (%d)\n"
+
+#: libwget/net.c:865
+#, c-format
+msgid "Failed to read %zu bytes (%d)\n"
+msgstr "Нисам успео да прочитам %zu бајта (%d)\n"
+
+#: libwget/net.c:947
+#, c-format
+msgid "Failed to write %zu bytes (%d)\n"
+msgstr "Нисам успео да запишем %zu бајта (%d)\n"
+
+#: libwget/net.c:988
+#, c-format
+msgid "%s: internal error: length mismatch %zu != %zd\n"
+msgstr "%s: унутрашња грешка: дужина не одговара %zu != %zd\n"
+
+#: libwget/metalink.c:135
+#, c-format
+msgid "Mirror scheme not supported: '%s'\n"
+msgstr "Шема огледала није подржана: „%s“\n"
+
+#: libwget/metalink.c:288
+msgid "Error in parsing XML"
+msgstr "Greška u obradi „XML“-a"
+
+#: libwget/ocsp.c:469
+#, c-format
+msgid "Failed to parse OCSP line: '%s'\n"
+msgstr "Нисам успео да обрадим „OCSP“ линију: „%s“\n"
+
+#: libwget/ocsp.c:516
+msgid "Failed to read OCSP hosts\n"
+msgstr "Нисам успео да прочитам „OCSP“ домаћине\n"
+
+#: libwget/ocsp.c:521
+msgid "Failed to read OCSP fingerprints\n"
+msgstr "Нисам успео да прочитам „OCSP“ отиске\n"
+
+#: libwget/ocsp.c:609
+#, c-format
+msgid "Failed to write to OCSP hosts to '%s'\n"
+msgstr "Нисам успео да пишем на „OCSP“ домаћинима на „%s“\n"
+
+#: libwget/ocsp.c:614
+#, c-format
+msgid "Failed to write to OCSP fingerprints to '%s'\n"
+msgstr "Нисам успео да пишем на „OCSP“ отиске на „%s“\n"
+
+#: libwget/pipe.c:85
+#, c-format
+msgid "Failed to create pipe for STDIN on %s\n"
+msgstr "Нисам успео да направим спојку за СТНД_УЛ на „%s“\n"
+
+#: libwget/pipe.c:89
+#, c-format
+msgid "Failed to create pipe for STDOUT on %s\n"
+msgstr "Нисам успео да направим спојку за СТНД_ИЗЛ на „%s“\n"
+
+#: libwget/pipe.c:97
+#, c-format
+msgid "Failed to create pipe for STDERR on %s\n"
+msgstr "Нисам успео да направим спојку за СТНД_ГРЕШКУ на „%s“\n"
+
+#: libwget/pipe.c:115 libwget/pipe.c:125 libwget/pipe.c:136
+#, c-format
+msgid "Failed to dup2(%d,%d) (%d)\n"
+msgstr "Нисам успео да одрадим „dup2(%d,%d)“ (%d)\n"
+
+#: libwget/pipe.c:163
+#, c-format
+msgid "Failed to fork '%s'\n"
+msgstr "Нисам успео да исцепим „%s“\n"
+
+#: libwget/ssl_gnutls.c:207 libwget/ssl_wolfssl.c:187
+#, c-format
+msgid "Unknown config key %d (or value must not be a string)\n"
+msgstr "Непознат кључ подешавања %d (или вредност не сме бити ниска)\n"
+
+#: libwget/ssl_gnutls.c:241 libwget/ssl_wolfssl.c:221
+#, c-format
+msgid "Unknown config key %d (or value must not be an object)\n"
+msgstr "Непознат кључ подешавања %d (или вредност не сме бити објекат)\n"
+
+#: libwget/ssl_gnutls.c:294 libwget/ssl_wolfssl.c:267
+#, c-format
+msgid "Unknown config key %d (or value must not be an integer)\n"
+msgstr "Непознат кључ подешавања %d (или вредност не сме бити цео број)\n"
+
+#: libwget/ssl_gnutls.c:341
+#, c-format
+msgid "Certificate info [%u]:\n"
+msgstr "Подаци о уверењу [%u]:\n"
+
+#: libwget/ssl_gnutls.c:344
+#, c-format
+msgid "  Valid since: %s"
+msgstr "  Важи до: %s"
+
+#: libwget/ssl_gnutls.c:347
+#, c-format
+msgid "  Expires: %s"
+msgstr "  Истиче: %s"
+
+#: libwget/ssl_gnutls.c:354
+#, c-format
+msgid "  Fingerprint: %s\n"
+msgstr "  Отисак: %s\n"
+
+#: libwget/ssl_gnutls.c:362
+#, c-format
+msgid "  Serial number: %s\n"
+msgstr "  Серијски број: %s\n"
+
+#: libwget/ssl_gnutls.c:367
+#, c-format
+msgid "  Public key: %s, %s (%u bits)\n"
+msgstr "  Јавни кључ: %s, %s (%u бита)\n"
+
+#: libwget/ssl_gnutls.c:372
+#, c-format
+msgid "  Version: #%d\n"
+msgstr "  Издање: #%d\n"
+
+#: libwget/ssl_gnutls.c:376
+#, c-format
+msgid "  DN: %s\n"
+msgstr "  НД: %s\n"
+
+#: libwget/ssl_gnutls.c:380
+#, c-format
+msgid "  Issuer's DN: %s\n"
+msgstr "  НД издавача: %s\n"
+
+#: libwget/ssl_gnutls.c:384
+#, c-format
+msgid "  Issuer's OID: %s\n"
+msgstr "  ОИБ издавача: %s\n"
+
+#: libwget/ssl_gnutls.c:388
+#, c-format
+msgid "  Issuer's UID: %s\n"
+msgstr "  УИБ издавача: %s\n"
+
+#: libwget/ssl_gnutls.c:400
+#, c-format
+msgid "  Unknown certificate type %d\n"
+msgstr "  Непозната врста уверења %d\n"
+
+#: libwget/ssl_gnutls.c:417 libwget/ssl_gnutls.c:489 libwget/ssl_gnutls.c:518
+msgid "----\n"
+msgstr "----\n"
+
+#: libwget/ssl_gnutls.c:425
+msgid "TLS/IA session\n"
+msgstr "„TLS/IA“ сесија\n"
+
+#: libwget/ssl_gnutls.c:430
+#, c-format
+msgid "SRP session with username %s\n"
+msgstr "„SRP“ сесија са корисничким именом %s\n"
+
+#: libwget/ssl_gnutls.c:438
+#, c-format
+msgid "PSK authentication. PSK hint '%s'\n"
+msgstr "„PSK“ потврђивање идентитета. „PSK“ погодак „%s“\n"
+
+#: libwget/ssl_gnutls.c:443
+#, c-format
+msgid "PSK authentication. Connected as '%s'\n"
+msgstr "„PSK“ потврђивање идентитета. Повезан као „%s“\n"
+
+#: libwget/ssl_gnutls.c:455
+msgid "Anonymous authentication.\n"
+msgstr "Безимено потврђивање идентитета.\n"
+
+#: libwget/ssl_gnutls.c:483
+msgid "Transport authentication failure\n"
+msgstr "Неуспех потврђивања идентитета преноса\n"
+
+#: libwget/ssl_gnutls.c:485
+#, c-format
+msgid "Unsupported credential type %d.\n"
+msgstr "Неподржана врста пуномоћства %d.\n"
+
+#: libwget/ssl_gnutls.c:492
+#, c-format
+msgid "Ephemeral DH using prime of %d bits\n"
+msgstr "Краткотрајно „DH“ коришћењем простог броја %d бита\n"
+
+#: libwget/ssl_gnutls.c:495
+#, c-format
+msgid "Ephemeral ECDH using curve %s\n"
+msgstr "Краткотрајно „ECDH“ коришћењем криве „%s“\n"
+
+#: libwget/ssl_gnutls.c:500
+#, c-format
+msgid "Key Exchange: %s\n"
+msgstr "Размена кључа: %s\n"
+
+#: libwget/ssl_gnutls.c:504
+#, c-format
+msgid "Protocol: %s\n"
+msgstr "Протокол: %s\n"
+
+#: libwget/ssl_gnutls.c:508
+#, c-format
+msgid "Certificate Type: %s\n"
+msgstr "Врста уверења: %s\n"
+
+#: libwget/ssl_gnutls.c:512
+#, c-format
+msgid "Cipher: %s\n"
+msgstr "Шифрер: %s\n"
+
+#: libwget/ssl_gnutls.c:516
+#, c-format
+msgid "MAC: %s\n"
+msgstr "MAC: %s\n"
+
+#: libwget/ssl_gnutls.c:869
+#, c-format
+msgid "Failed to import pubkey: %s\n"
+msgstr "Нисам успео да увезем јавни кључ: %s\n"
+
+#: libwget/ssl_gnutls.c:877 libwget/ssl_gnutls.c:889 libwget/ssl_gnutls.c:897
+#, c-format
+msgid "Failed to export pubkey: %s\n"
+msgstr "Нисам успео да извезем јавни кључ: %s\n"
+
+#: libwget/ssl_gnutls.c:937
+msgid "ERROR"
+msgstr "ГРЕШКА"
+
+#: libwget/ssl_gnutls.c:937
+msgid "WARNING"
+msgstr "УПОЗОРЕЊЕ"
+
+#: libwget/ssl_gnutls.c:956
+#, c-format
+msgid "%s: Certificate verification error\n"
+msgstr "%s: Грешка потврђивања уверења\n"
+
+#: libwget/ssl_gnutls.c:996
+#, c-format
+msgid "%s: The certificate is not trusted.\n"
+msgstr "%s: Уверење није поуздано.\n"
+
+#: libwget/ssl_gnutls.c:998
+#, c-format
+msgid "%s: The certificate has been revoked.\n"
+msgstr "%s: Уверење је повучено.\n"
+
+#: libwget/ssl_gnutls.c:1000
+#, c-format
+msgid "%s: The certificate doesn't have a known issuer.\n"
+msgstr "%s: Уверење нема познатог издавача.\n"
+
+#: libwget/ssl_gnutls.c:1002
+#, c-format
+msgid "%s: The certificate signer was not a CA.\n"
+msgstr "%s: Потписник уверења није издавач уверења.\n"
+
+#: libwget/ssl_gnutls.c:1004
+#, c-format
+msgid "%s: The certificate was signed using an insecure algorithm.\n"
+msgstr "%s: Уверење је потписано коришћењем непоузданог алгоритма.\n"
+
+#: libwget/ssl_gnutls.c:1006
+#, c-format
+msgid "%s: The certificate is not yet activated.\n"
+msgstr "%s: Уверење још није активирано.\n"
+
+#: libwget/ssl_gnutls.c:1008
+#, c-format
+msgid "%s: The certificate has expired.\n"
+msgstr "%s: Уверење је истекло.\n"
+
+#: libwget/ssl_gnutls.c:1011
+#, c-format
+msgid "%s: The certificate signature is invalid.\n"
+msgstr "%s: Потпис уверења је неисправан.\n"
+
+#: libwget/ssl_gnutls.c:1013
+#, c-format
+msgid "%s: The certificate's owner does not match hostname '%s'.\n"
+msgstr "%s: Власник уверења не одговара називу домаћина „%s“.\n"
+
+#: libwget/ssl_gnutls.c:1025
+#, c-format
+msgid "%s: The certificate could not be verified (0x%X).\n"
+msgstr "%s: Уверење не може бити потврђено (0x%X).\n"
+
+#: libwget/ssl_gnutls.c:1036
+#, c-format
+msgid "%s: Certificate must be X.509\n"
+msgstr "%s: Уверење мора бити X.509\n"
+
+#: libwget/ssl_gnutls.c:1041
+#, c-format
+msgid "%s: Error initializing X.509 certificate\n"
+msgstr "%s: Грешка покретања X.509 уверења\n"
+
+#: libwget/ssl_gnutls.c:1047
+#, c-format
+msgid "%s: No certificate was found!\n"
+msgstr "%s: Нисам нашао ниједно уверење!\n"
+
+#: libwget/ssl_gnutls.c:1052
+#, c-format
+msgid "%s: Failed to parse certificate: %s\n"
+msgstr "%s: Нисам успео да обрадим уверење: %s\n"
+
+#: libwget/ssl_gnutls.c:1075
+msgid "WARNING: The certificate's (stapled) OCSP status is invalid\n"
+msgstr "УПОЗОРЕЊЕ: „OCSP“ стање уверења (разврстано) је неисправно\n"
+
+#: libwget/ssl_gnutls.c:1078
+msgid "WARNING: The certificate's (stapled) OCSP status has not been sent\n"
+msgstr "УПОЗОРЕЊЕ: „OCSP“ стање уверења (разврстано) није послато\n"
+
+#: libwget/ssl_gnutls.c:1090
+#, c-format
+msgid "%s: Failed to parse certificate[%u]: %s\n"
+msgstr "%s: Нисам успео да обрадим уверење[%u]: %s\n"
+
+#: libwget/ssl_gnutls.c:1176
+#, c-format
+msgid "%s: Pubkey pinning mismatch!\n"
+msgstr "%s: Качење јавног кључа не одговара!\n"
+
+#: libwget/ssl_gnutls.c:1232
+msgid "GnuTLS requires the key and the cert to be of the same type.\n"
+msgstr "ГнуТЛС захтева да кључ и уверење буду исте врсте.\n"
+
+#: libwget/ssl_gnutls.c:1236
+msgid "No certificates or keys were found\n"
+msgstr "Нисам нашао ни уверења ни кључеве\n"
+
+#: libwget/ssl_gnutls.c:1241
+#, c-format
+msgid "No CAs were found in '%s'\n"
+msgstr "Нисам нашао издавача уверења у „%s“\n"
+
+#: libwget/ssl_gnutls.c:1322
+#, c-format
+msgid "Failed to opendir %s\n"
+msgstr "Нисам успео да отворим директоријум „%s“\n"
+
+#: libwget/ssl_gnutls.c:1329
+#, c-format
+msgid "Failed to load CRL '%s': (%d)\n"
+msgstr "Нисам успео да учитам „CRL“ „%s“ (%d)\n"
+
+#: libwget/ssl_gnutls.c:1371
+#, c-format
+msgid "GnuTLS: Unsupported priority string '%s': %s\n"
+msgstr "ГнуТЛС: Неподржана ниска приоритета „%s“: %s\n"
+
+#: libwget/ssl_gnutls.c:1375
+#, c-format
+msgid "GnuTLS: Unsupported default priority 'NULL': %s\n"
+msgstr "ГнуТЛС: Неподржан основни приоритет 'NULL': %s\n"
+
+#: libwget/ssl_gnutls.c:1622 libwget/ssl_gnutls.c:1628
+msgid ""
+"TLS False Start requested but libwget built with insufficient GnuTLS "
+"version\n"
+msgstr ""
+"ТЛС лажни старт је захтеван али је „libget“ изграђена са непотпуним ГнуТЛС "
+"издањем\n"
+
+#: libwget/ssl_gnutls.c:1633
+#, c-format
+msgid "GnuTLS: Failed to set priorities: %s\n"
+msgstr "ГнуТЛС: Нисам успео да поставим приоритете: %s\n"
+
+#: libwget/ssl_gnutls.c:1663
+msgid "WARNING: OCSP is not available in this version of GnuTLS.\n"
+msgstr "УПОЗОРЕЊЕ: „OCSP“ није доступно у овом издању ГнуТЛС-а.\n"
+
+#: libwget/ssl_gnutls.c:1730
+#, c-format
+msgid "GnuTLS: Failed to set session data: %s\n"
+msgstr "ГнуТЛС: Нисам успео да поставим податке сесије: %s\n"
+
+#: libwget/ssl_wolfssl.c:590
+msgid "Missing TLS method\n"
+msgstr "Недостаје ТЛС метода\n"
+
+#: libwget/ssl_wolfssl.c:596
+msgid "Failed to create WOLFSSL_CTX\n"
+msgstr "Нисам успео да направим „WOLFSSL_CTX“\n"
+
+#: libwget/ssl_wolfssl.c:611
+#, c-format
+msgid "WolfSSL: Failed to set ciphers '%s'\n"
+msgstr "WolfSSL: Нисам успео да поставим шифрере „%s“\n"
+
+#: libwget/ssl_wolfssl.c:619
+#, c-format
+msgid "Failed to load %s, please check the file.\n"
+msgstr "Нисам успео да учитам „%s“, проверите датотеку.\n"
+
+#: libwget/ssl_wolfssl.c:859
+msgid "Failed to create WolfSSL session\n"
+msgstr "Нисам успео да направим „WolfSSL“ сесију\n"
+
+#: libwget/ssl_wolfssl.c:993
+#, c-format
+msgid "failed to connect TLS (%d): %s\n"
+msgstr "нисам успео да повежем ТЛС (%d): %s\n"
+
+#: libwget/ssl_openssl.c:231 libwget/ssl_openssl.c:271
+#: libwget/ssl_openssl.c:345
+#, c-format
+msgid ""
+"Unknown configuration key %d (maybe this config value should be of another "
+"type?)\n"
+msgstr ""
+"Непознат кључ подешавања %d (или ова вредност подешавања треба да буде друге "
+"врсте?)\n"
+
+#: libwget/ssl_openssl.c:394
+msgid ""
+"OpenSSL: TLS 1.3 is not supported by your OpenSSL version. Will use TLS 1.2 "
+"instead.\n"
+msgstr ""
+"OpenSSL: TLS 1.3 није подржано вашим издањем OpenSSL-а. Користићу TLS 1.2.\n"
+
+#: libwget/ssl_openssl.c:404
+#, c-format
+msgid "OpenSSL: Invalid priority string '%s'\n"
+msgstr "OpenSSL: Неисправна ниска хитности „%s“\n"
+
+#: libwget/ssl_openssl.c:466
+#, c-format
+msgid ""
+"OpenSSL: Could not load certificates from default paths. Falling back to "
+"'%s'."
+msgstr ""
+"OpenSSL: Не могу да учитам уверења из основних путања. Пребацујем се на „%s“."
+
+#: libwget/ssl_openssl.c:471
+#, c-format
+msgid "OpenSSL: No certificates could be loaded from directory '%s'\n"
+msgstr "OpenSSL: Никаква уверења не могу да се учитају из директоријума „%s“\n"
+
+#: libwget/ssl_openssl.c:475
+#, c-format
+msgid "OpenSSL: Could not open directory '%s'. No certificates were loaded.\n"
+msgstr ""
+"OpenSSL: Не могу да отворим директоријум „%s“. Никаква уверења нису "
+"учитана.\n"
+
+#: libwget/ssl_openssl.c:581
+msgid "Got a stapled OCSP response, but could not parse it. Aborting.\n"
+msgstr ""
+"Добих приспојени „OCSP“ одговор, али не могу да га обрадим. Прекидам.\n"
+
+#: libwget/ssl_openssl.c:587
+msgid "Could not get server's cert stack\n"
+msgstr "Не могу да добавим спремник уверења сервера\n"
+
+#: libwget/ssl_openssl.c:598
+msgid "Could not verify stapled OCSP response. Aborting.\n"
+msgstr "Не могу да проверим приспојени „OCSP“ одговор. Прекидам.\n"
+
+#: libwget/ssl_openssl.c:758
+msgid "ERROR: print_openssl_time: BIO_read failed\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:772
+#, fuzzy
+msgid "Could not get current time!\n"
+msgstr "Не могу да добавим спремник уверења сервера\n"
+
+#: libwget/ssl_openssl.c:781
+#, fuzzy
+msgid "Could not compute time difference for thisUpd. Aborting.\n"
+msgstr "Не могу да израчунам отисак уверења за уверење „%u“\n"
+
+#: libwget/ssl_openssl.c:785
+#, fuzzy
+msgid "*** OCSP response thisUpd is too old. Aborting.\n"
+msgstr "„OCSP“ одговор је превише стар. Занемарујем.\n"
+
+#: libwget/ssl_openssl.c:796
+#, fuzzy
+msgid "Could not compute time difference for nextUpd. Aborting.\n"
+msgstr "Не могу да израчунам отисак уверења за уверење „%u“\n"
+
+#: libwget/ssl_openssl.c:801
+msgid "*** OCSP next update is in the past!\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:830
+msgid "Unsuccessful OCSP response\n"
+msgstr "Неуспешан „OCSP“ одговор\n"
+
+#: libwget/ssl_openssl.c:838
+msgid "Could not verify OCSP certificate chain\n"
+msgstr "Не могу да проверим ланац „OCSP“ уверења\n"
+
+#: libwget/ssl_openssl.c:844
+msgid "Could not parse OCSP single response\n"
+msgstr "Не могу да обрадим један „OCSP“ одговор\n"
+
+#: libwget/ssl_openssl.c:851
+msgid "Could not obtain OCSP response status\n"
+msgstr "Не могу да набавим стање „OCSP“ одговара\n"
+
+#: libwget/ssl_openssl.c:866
+msgid "Could not get 'thisUpd' from OCSP response. Cannot check time.\n"
+msgstr ""
+"Не могу да добавим „thisUpd“ из „OCSP“ одговора. Не могу да проверим време.\n"
+
+#: libwget/ssl_openssl.c:918
+msgid "Could not obtain OCSP_BASICRESPONSE\n"
+msgstr "Не могу да набавим „OCSP_BASICRESPONSE“\n"
+
+#: libwget/ssl_openssl.c:924
+msgid "OCSP nonce does not match\n"
+msgstr "Једновремени „OCSP“ се не поклапа\n"
+
+#: libwget/ssl_openssl.c:1036
+#, c-format
+msgid "Could not compute certificate fingerprint for cert %u\n"
+msgstr "Не могу да израчунам отисак уверења за уверење „%u“\n"
+
+#: libwget/ssl_openssl.c:1128
+msgid "Could not retrieve certificate store. Will skip HPKP checks.\n"
+msgstr "Не могу да довучем смештај уверења. Прескочићу „HPKP“ провере.\n"
+
+#: libwget/ssl_openssl.c:1134
+msgid "Could not retrieve saved verification status flags.\n"
+msgstr "Не могу да довучем сачуване заставице стања провере.\n"
+
+#: libwget/ssl_openssl.c:1147
+msgid "Public key pinning mismatch.\n"
+msgstr "Качење јавног кључа не одговара.\n"
+
+#: libwget/ssl_openssl.c:1158
+msgid "Certificate revoked by OCSP.\n"
+msgstr "Уверење је опозвано путем „OCSP“-а.\n"
+
+#: libwget/ssl_openssl.c:1179
+msgid "Certificate check disabled. Peer's certificate will NOT be checked.\n"
+msgstr "Провера уверења је искључена. Уверење парњака НЕЋЕ бити проверено.\n"
+
+#: libwget/ssl_openssl.c:1185
+msgid "OpenSSL: Could not obtain cert store\n"
+msgstr "OpenSSL: Не могу да набавим смештај уверења\n"
+
+#: libwget/ssl_openssl.c:1198
+#, c-format
+msgid "Could not load CRL from '%s' (%d)\n"
+msgstr "Не могу да учитам „CRL“ из „%s“ (%d)\n"
+
+#: libwget/ssl_openssl.c:1212
+#, c-format
+msgid "Could not load CA certificate from file '%s'\n"
+msgstr "Не могу да учитам уверење издавача уверења из датотеке „%s“\n"
+
+#: libwget/ssl_openssl.c:1268
+msgid "Could not initialize OpenSSL\n"
+msgstr "Не могу да покренем „OpenSSL“\n"
+
+#: libwget/ssl_openssl.c:1319
+msgid "OpenSSL: Could not parse cached session data.\n"
+msgstr "OpenSSL: Не могу да обрадим податке сесије из оставе.\n"
+
+#: libwget/ssl_openssl.c:1327
+msgid "OpenSSL: Could not set session data.\n"
+msgstr "OpenSSL: Не могу да поставим податке сесије.\n"
+
+#: libwget/ssl_openssl.c:1554
+msgid ""
+"Host name check disabled. Server certificate's subject name will not be "
+"checked.\n"
+msgstr ""
+"Провера назива домаћина је искључена. Назив субјекта уверења сервера се неће "
+"проверавати.\n"
+
+#: libwget/ssl_openssl.c:1563
+msgid "Could not set 'status_request' extension\n"
+msgstr "Не могу да поставим „status_request“ проширење\n"
+
+#: libwget/ssl_openssl.c:1569
+msgid "SNI could not be sent"
+msgstr "„SNI“ се не може послати"
+
+#: libwget/ssl_openssl.c:1573
+msgid "ALPN offering could not be sent"
+msgstr "„ALPN“ нуђење се не може послати"
+
+#: libwget/ssl_openssl.c:1581
+msgid "Could not get cached TLS session"
+msgstr "Не могу да добавим ТЛС сесију из оставе"
+
+#: libwget/ssl_openssl.c:1603
+#, c-format
+msgid "Could not complete TLS handshake: %s\n"
+msgstr "Не могу да довршим ТЛС руковање: %s\n"
+
+#: libwget/ssl_openssl.c:1759
+#, c-format
+msgid "TLS read error: %s\n"
+msgstr "Грешка ТЛС читања: %s\n"
+
+#: libwget/ssl_openssl.c:1794
+#, c-format
+msgid "TLS write error: %s\n"
+msgstr "Грешка ТЛС писања: %s\n"
+
+#: libwget/tls_session.c:355
+msgid "Failed to read TLS session data\n"
+msgstr "Нисам успео да прочитам податке „TLS“ сесије\n"
+
+#: libwget/tls_session.c:406
+#, c-format
+msgid "Failed to write TLS session file '%s'\n"
+msgstr "Нисам успео да запишем датотеку „TLS“ сесије „%s“\n"
+
+#: libwget/xml.c:658
+#, fuzzy, c-format
+msgid "Failed to allocate %zu bytes for XML parse buffer\n"
+msgstr "Нисам успео да доделим %zu бајта\n"
+
+#: src/bar.c:95
+msgid "Cannot create progress bar thread. Disabling progress bar.\n"
+msgstr ""
+"Не могу да направим нит траке напредовања. Искључујем траку напредовања.\n"
+
+#: src/dl.c:41
+#, c-format
+msgid "Piling up error '%s' over error '%s'"
+msgstr "Нагомилавам грешку „%s“ преко грешке „%s“"
+
+#: src/gpgme.c:60
+msgid "GPGME Failure\n"
+msgstr "ГПГМЕ неуспех\n"
+
+#: src/gpgme.c:64
+#, c-format
+msgid "%s: Invalid signature\n"
+msgstr "%s: Неисправан потпис\n"
+
+#: src/gpgme.c:67
+#, c-format
+msgid "%s: Key %s expired\n"
+msgstr "%s: Кључ „%s“ је истекао\n"
+
+#: src/gpgme.c:70
+#, c-format
+msgid "%s: Expired signature\n"
+msgstr "%s: Истекли потпис\n"
+
+#: src/gpgme.c:73
+#, c-format
+msgid "%s: Key %s missing\n"
+msgstr "%s: Кључ „%s“ недостаје\n"
+
+#: src/gpgme.c:76
+#, c-format
+msgid "%s: Unhandled failure\n"
+msgstr "%s: Немогућ неуспех\n"
+
+#: src/gpgme.c:117
+msgid "Invalid signature, signature file must have a sig extension\n"
+msgstr "Неисправан потпис, датотека потписа мора имати „sig“ проширење\n"
+
+#: src/gpgme.c:156
+msgid "Failed to init gpgme context\n"
+msgstr "Нисам успео да покренем гпгме контекст\n"
+
+#: src/gpgme.c:171
+msgid "Couldn't specify gnupg homedir\n"
+msgstr "Не могу да наведем гнупг почетни директорију\n"
+
+#: src/gpgme.c:177
+#, c-format
+msgid "Couldn't canonicalize %s. (Does the path exist?)\n"
+msgstr "Не могу да канонизујем „%s“. (Да ли путања постоји?)\n"
+
+#: src/gpgme.c:186
+msgid "Error during verification\n"
+msgstr "Грешка приликом потврђивања\n"
+
+#: src/gpgme.c:194
+msgid "GPGME verify failed!\n"
+msgstr "ГПГМЕ потврђивање није успело!\n"
+
+#: src/gpgme.c:273
+#, c-format
+msgid "Unsupported protocol type for content: %s\n"
+msgstr "Неподржана врста протокола за садржај: %s\n"
+
+#: src/gpgme.c:281
+msgid "Couldn't correct signature file!\n"
+msgstr "Не могу да исправим датотеку потписа!\n"
+
+#: src/gpgme.c:290
+#, c-format
+msgid "Failed to read file to verify sig: %s\n"
+msgstr "Нисам успео да прочитам датотеку за потврђивање потписа: %s\n"
+
+#: src/host.c:394 src/wget.c:941
+#, c-format
+msgid "URL '%s' not followed (disallowed by robots.txt)\n"
+msgstr "Адреса „%s“ није праћена (искучио ју је „robots.txt“)\n"
+
+#: src/job.c:186
+#, c-format
+msgid ""
+"Failed to truncate %s\n"
+" from %llu to %llu bytes\n"
+msgstr ""
+"Нисам успео да скратим „%s“\n"
+" са %llu на %llu бајта\n"
+
+#: src/job.c:205
+#, c-format
+msgid "Checksum OK for '%s'\n"
+msgstr "Сума провере је у реду за „%s“\n"
+
+#: src/job.c:212
+msgid "Failed to build checksum, assuming file to be OK\n"
+msgstr ""
+"Нисам успео да изградим суму провере, претпостављам да је датотека у реду\n"
+
+#: src/job.c:217
+#, c-format
+msgid "Bad checksum for '%s'\n"
+msgstr "Лоша сума провере за „%s“\n"
+
+#: src/job.c:235
+#, c-format
+msgid "Piece %d/%d not OK - requeuing\n"
+msgstr "Комад %d/%d није у реду – поново стављам у ред\n"
+
+#: src/options.c:287
+#, c-format
+msgid "Value out of range (0-65535): %s\n"
+msgstr "Вредност је ван опсега (0-65535): %s\n"
+
+#: src/options.c:351
+#, c-format
+msgid "Invalid byte specifier: %s\n"
+msgstr "Неисправан одредник бајта: %s\n"
+
+#: src/options.c:423
+#, c-format
+msgid "Ignoring invalid header: %s\n"
+msgstr "Занемарујем неисправно заглавље: %s\n"
+
+#: src/options.c:432
+#, c-format
+msgid "No value in header (ignoring): %s\n"
+msgstr "Нема вредности у заглављу (занемарујем): %s\n"
+
+#: src/options.c:674
+#, c-format
+msgid "Invalid boolean value '%s'\n"
+msgstr "Неисправна логичка вредност „%s“\n"
+
+#: src/options.c:716
+#, c-format
+msgid "Invalid time specifier in '%s'\n"
+msgstr "Неисправан одредник времена у „%s“\n"
+
+#: src/options.c:746
+#, c-format
+msgid "Unknown cert type '%s'\n"
+msgstr "Непозната врста уверења „%s“\n"
+
+#: src/options.c:763
+#, c-format
+msgid "Unsupported regex type '%s'\n"
+msgstr "Неподржана врста регуларног израза „%s“\n"
+
+#: src/options.c:773
+msgid "Empty progress type\n"
+msgstr "Празна врста напредовања\n"
+
+#: src/options.c:782
+#, c-format
+msgid "Unknown progress type '%s'\n"
+msgstr "Непозната врста напредовања „%s“\n"
+
+#: src/options.c:807
+#, c-format
+msgid "Unknown restrict-file-name type '%s'\n"
+msgstr "Непозната врста ограничења назива датотеке „%s“\n"
+
+#: src/options.c:839
+#, c-format
+msgid "Unknown option '-n%c'\n"
+msgstr "Непозната опција „-n%c“\n"
+
+#: src/options.c:859
+#, c-format
+msgid "Unknown address family '%s'\n"
+msgstr "Непозната породица адресе „%s“\n"
+
+#: src/options.c:886
+#, c-format
+msgid "Unknown stats format '%s'\n"
+msgstr "Непознат формат статистике „%s“\n"
+
+#: src/options.c:916 src/options.c:934
+#, c-format
+msgid "Plugin '%s' failed to load: %s\n"
+msgstr "Прикључак „%s“ није успео да се учита: %s\n"
+
+#: src/options.c:995 src/options.c:1015
+msgid "Missing required type specifier\n"
+msgstr "Недостаје захтевани одредник врсте\n"
+
+#: src/options.c:999 src/options.c:1019
+#, c-format
+msgid "Invalid type specifier: %s\n"
+msgstr "Неисправан одредник врсте: %s\n"
+
+#: src/options.c:1032
+msgid "no-verify-sig cannot take additional arguments\n"
+msgstr "„no-verify-sig“ не може да узме додатне аргументе\n"
+
+#: src/options.c:1042
+#, c-format
+msgid "Invalid option specifier: %s\n"
+msgstr "Неисправан одредник опције: %s\n"
+
+#: src/options.c:1086
+#, c-format
+msgid "Compression type %s not supported\n"
+msgstr "Врста запакивања „%s“ није подржана\n"
+
+#: src/options.c:1089
+#, c-format
+msgid "Duplicate type %s"
+msgstr "Двострука врста „%s“"
+
+#: src/options.c:1119
+#, c-format
+msgid "Lib for type %s not built"
+msgstr "Библиотека за „%s“ врсту није уграђена"
+
+#: src/options.c:1151
+#, c-format
+msgid "Disallowed Value for --no-download-attr: %s\n"
+msgstr "Онемогућена вредност за „--no-download-attr“: %s\n"
+
+#: src/options.c:1160
+#, c-format
+msgid "Invalid value for --download-attr: %s\n"
+msgstr "Неисправна вредност за „--download-attr“: %s\n"
+
+#: src/options.c:2504 src/options.c:2539
+#, c-format
+msgid "Unknown option '%s'\n"
+msgstr "Непозната опција „-%s“\n"
+
+#: src/options.c:2556
+#, c-format
+msgid "Option 'no-%s' doesn't allow an argument\n"
+msgstr "Опција „no-%s“ не дозвољава аргумент\n"
+
+#: src/options.c:2560
+#, c-format
+msgid "Option '%s' doesn't allow an argument\n"
+msgstr "Опција „%s“ не дозвољава аргумент\n"
+
+#: src/options.c:2571
+#, c-format
+msgid "Missing argument for option '%s'\n"
+msgstr "Недостаје аргумент за опцију „%s“\n"
+
+#: src/options.c:2637
+#, c-format
+msgid "Failed to parse: '%s'\n"
+msgstr "Нисам успео да обрадим: „%s“\n"
+
+#: src/options.c:2699
+#, c-format
+msgid "Config file recursion detected in %s\n"
+msgstr "Дубачење датотеке подешавања је откривено у „%s“\n"
+
+#: src/options.c:2726
+#, c-format
+msgid "Failed to open %s (%d): %s\n"
+msgstr "Нисам успео да отворим „%s“ (%d): %s\n"
+
+#: src/options.c:2790
+#, c-format
+msgid "Failed to parse last line in '%s'\n"
+msgstr "Нисам успео да обрадим последњу линију у „%s“\n"
+
+#: src/options.c:2870
+#, c-format
+msgid "Missing argument(s) for option '-%c'\n"
+msgstr "Недостаје аргумент за опцију „-%c“\n"
+
+#: src/options.c:2890
+#, c-format
+msgid "Unknown option '-%c'\n"
+msgstr "Непозната опција „-%c“\n"
+
+#: src/options.c:2921
+#, c-format
+msgid "Password for user \"%s\": "
+msgstr "Лозинка за корисника „%s“: "
+
+#: src/options.c:2923
+msgid "Password: "
+msgstr "Лозинка: "
+
+#: src/options.c:2944
+msgid "Cannot create pipe"
+msgstr "Не могу да направим спојку"
+
+#: src/options.c:2950
+#, c-format
+msgid "Error initializing spawn file actions for use-askpass: %d"
+msgstr "Грешка покретања радње израђања датотеке за „use-askpass“: %d"
+
+#: src/options.c:2961
+#, c-format
+msgid "Error setting spawn file actions for use-askpass: %d"
+msgstr "Грешка постављања радње израђања датотеке за „use-askpass“: %d"
+
+#: src/options.c:2968
+#, c-format
+msgid "Error spawning %s: %d"
+msgstr "Грешка израђања „%s“: %d"
+
+#: src/options.c:2985
+#, c-format
+msgid "Error reading response from command \"%s %s\": %s\n"
+msgstr "Грешка читања одговора из наредбе „%s %s“: %s\n"
+
+#: src/options.c:3050
+#, c-format
+msgid "Failed to open %s"
+msgstr "Нисам успео да отворим „%s“"
+
+#: src/options.c:3100
+#, c-format
+msgid "~/.wget2rc is deprecated. Please move it to %s/wget2rc\n"
+msgstr "„~/.wget2rc“ је застарело. Преместите је у „%s/wget2rc“\n"
+
+#: src/options.c:3422
+#, c-format
+msgid "Failed to set http proxies %s\n"
+msgstr "Нисам успео да поставим „http“ посреднике „%s“\n"
+
+#: src/options.c:3426
+#, c-format
+msgid "Failed to set https proxies %s\n"
+msgstr "Нисам успео да поставим „https“ посреднике „%s“\n"
+
+#: src/options.c:3430
+#, c-format
+msgid "Failed to set proxy exceptions %s\n"
+msgstr "Нисам успео да поставим изузетке посредника „%s“\n"
+
+#: src/options.c:3456
+#, c-format
+msgid "Failed to load %s (%d)"
+msgstr "Нисам успео да учитам „%s“ (%d)"
+
+#: src/options.c:3516
+msgid ""
+"Specifying both --start-pos and --continue is not recommended; --continue "
+"will be disabled"
+msgstr ""
+"Навођење и „--start-pos“ и „--continue“ се не препоручује; „--continue“ биће "
+"искључено"
+
+#: src/options.c:3522
+msgid "WARNING: timestamping does nothing in combination with -O"
+msgstr "УПОЗОРЕЊЕ: временски жиг не ради ништа у комбинацији са „-O“"
+
+#: src/options.c:3526
+msgid "Can't timestamp and not clobber old files at the same time"
+msgstr ""
+"Не могу да поставим временски жиг а да не разбуцам старе датотеке у исто "
+"време"
+
+#: src/options.c:3530
+msgid "WARNING: timestamping does nothing in combination with spider"
+msgstr "УПОЗОРЕЊЕ: временски жиг не ради ништа у комбинацији са пауком"
+
+#: src/options.c:3534
+msgid ""
+"WARNING: timestamping and chunk-size only work together without If-Modified-"
+"Since"
+msgstr ""
+"УПОЗОРЕЊЕ: временско жигосање и величина делића ради заједно само без „Ако-"
+"је-измењено-од“"
+
+#: src/options.c:3573
+#, c-format
+msgid "Failed to init networking (%d)"
+msgstr "Нисам успео да покренем умрежавање (%d)"
+
+#: src/options.c:3578
+#, c-format
+msgid "Failed to init DNS (%d)"
+msgstr "Нисам успео да покренем ДНС (%d)"
+
+#: src/options.c:3596 src/options.c:3607 src/options.c:3618 src/options.c:3629
+#: src/options.c:3640
+#, c-format
+msgid "Failed to open '%s' (%d)"
+msgstr "Нисам успео да отворим „%s“ (%d)"
+
+#: src/options.c:3887
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare())\n"
+msgstr "%s: Опција није у поретку „%s“ након „%s“ (користим „opt_compare()“)\n"
+
+#: src/options.c:3896
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare_config())\n"
+msgstr ""
+"%s: Опција није у поретку „%s“ након „%s“ (користим „opt_compare_config()“)\n"
+
+#: src/options.c:3906
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare())\n"
+msgstr "%s: Нисам успео да нађем опцију „%s“ (користим „opt_compare()“)\n"
+
+#: src/options.c:3916 src/options.c:3940
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare_config())\n"
+msgstr ""
+"%s: Нисам успео да нађем опцију „%s“ (користим „opt_compare_config()“)\n"
+
+#: src/options.c:3965
+#, c-format
+msgid "%s: Failed to parse bool short option #%zu (=%d)\n"
+msgstr "%s: Нисам успео да обрадим кратку опцију логике #%zu (=%d)\n"
+
+#: src/options.c:3991 src/options.c:3997
+#, c-format
+msgid "%s: Failed to parse bool long option #%zu (%d)\n"
+msgstr "%s: Нисам успео да обрадим дугу опцију логике #%zu (=%d)\n"
+
+#: src/options.c:4040
+#, c-format
+msgid "%s: Failed to parse timeout short option #%zu (=%d)\n"
+msgstr "%s: Нисам успео да обрадим кратку опцију истека времена #%zu (=%d)\n"
+
+#: src/options.c:4071
+#, c-format
+msgid "%s: Failed to parse timeout long option #%zu (%d)\n"
+msgstr "%s: Нисам успео да обрадим дугу опцију истека времена #%zu (=%d)\n"
+
+#: src/options.c:4106
+#, c-format
+msgid "%s: Extra headers found in option #%zu\n"
+msgstr "%s: Нађох додатна заглавља у опцији #%zu\n"
+
+#: src/options.c:4111
+#, c-format
+msgid "%s: Failed to parse header option #%zu\n"
+msgstr "%s: Нисам успео да обрадим опцију заглавља #%zu\n"
+
+#: src/options.c:4134
+#, c-format
+msgid "%s: Accepted illegal header option #%zu\n"
+msgstr "%s: Прихватих неисправну опцију заглавља #%zu\n"
+
+#: src/options.c:4162 src/options.c:4181
+#, c-format
+msgid "%s: Failed to parse string short option #%zu (=%s)\n"
+msgstr "%s: Нисам успео да обрадим кратку опцију ниске #%zu (=%s)\n"
+
+#: src/plugin.c:397
+#, c-format
+msgid "Plugin '%s' failed to load: %s"
+msgstr "Прикључак „%s“ није успео да се учита: %s"
+
+#: src/plugin.c:505
+#, c-format
+msgid "Options for %s:\n"
+msgstr "Опције за „%s“:\n"
+
+#: src/utils.c:50
+#, c-format
+msgid "Internal error: Unexpected relative path: '%s'\n"
+msgstr "Унутрашња грешка: Неочекивана релативна путања: „%s“\n"
+
+#: src/utils.c:76 src/utils.c:83
+#, c-format
+msgid "Failed to make directory '%s' (errno=%d)\n"
+msgstr "Нисам успео да направим директоријум „%s“ (бр_грешке=%d)\n"
+
+#: src/utils.c:81
+#, c-format
+msgid "Failed to rename '%s' (errno=%d)\n"
+msgstr "Нисам успео да преименујем „%s“ (бр_грешке=%d)\n"
+
+#: src/wget.c:596
+#, c-format
+msgid "HSTS in effect for %s:%hu\n"
+msgstr "„HSTS“ у дејству за „%s:%hu“\n"
+
+#: src/wget.c:614
+#, c-format
+msgid "Failed to parse URI '%s'\n"
+msgstr "Нисам успео да обрадим путању „%s“\n"
+
+#: src/wget.c:632
+#, c-format
+msgid "URI scheme not supported: '%s'\n"
+msgstr "Шема путање није подржана: „%s“\n"
+
+#: src/wget.c:775
+#, c-format
+msgid "Adding URL: %s\n"
+msgstr "Додајем адресу: %s\n"
+
+#: src/wget.c:791 src/wget.c:1152
+#, c-format
+msgid "Cannot resolve URI '%s'\n"
+msgstr "Не могу да решим путању „%s“\n"
+
+#: src/wget.c:813
+#, c-format
+msgid "URL '%s' not followed (unsupported scheme)\n"
+msgstr "Адреса „%s“ није праћена (неподржана шема)\n"
+
+#: src/wget.c:823
+#, c-format
+msgid "URL '%s' not followed (https-only requested)\n"
+msgstr "Адреса „%s“ није праћена (само-https је затражено)\n"
+
+#: src/wget.c:863
+msgid "missing ip/host/domain"
+msgstr "недостаје ип/домаћим/домен"
+
+#: src/wget.c:866
+msgid "no host-spanning requested"
+msgstr "није захтевано ширење домаћина"
+
+#: src/wget.c:868
+msgid "domain explicitly excluded"
+msgstr "домен је изричито искључен"
+
+#: src/wget.c:872
+#, c-format
+msgid "URL '%s' not followed (%s)\n"
+msgstr "Адреса „%s“ није праћена (%s)\n"
+
+#: src/wget.c:895
+#, c-format
+msgid "URL '%s' not followed (parent ascending not allowed)\n"
+msgstr "Адреса „%s“ није праћена (растуће родитељско није дозвољено)\n"
+
+#: src/wget.c:913
+#, c-format
+msgid "URL '%s' not requested (file already exists)\n"
+msgstr "Адреса „%s“ није захтевана (датотека већ постоји)\n"
+
+#: src/wget.c:948
+#, c-format
+msgid "Failed to get '%s' from hosts\n"
+msgstr "Нисам успео да добавим „%s“ из домаћина\n"
+
+#: src/wget.c:1129
+#, c-format
+msgid "convert %s %s %s\n"
+msgstr "претвори %s %s %s\n"
+
+#: src/wget.c:1132
+#, c-format
+msgid "%s not found (%d)\n"
+msgstr "нисам нашао „%s“ (%d)\n"
+
+#: src/wget.c:1181
+#, c-format
+msgid "Failed to rename %s to %s (%d)"
+msgstr "Нисам успео да преименујем „%s“ у „%s“ (%d)"
+
+#: src/wget.c:1185
+#, c-format
+msgid "Failed to write open %s (%d)"
+msgstr "Нисам успео да запишем отварање „%s“ (%d)"
+
+#: src/wget.c:1316 src/wget.c:1405
+#, c-format
+msgid "Failed to start downloader, error %d\n"
+msgstr "Нисам успео да покренем преузимача, грешка %d\n"
+
+#: src/wget.c:1339
+#, c-format
+msgid "Failed to open input file %s\n"
+msgstr "Нисам успео да отворим улазну датотеку „%s“\n"
+
+#: src/wget.c:1344
+msgid "Nothing to do - goodbye\n"
+msgstr "Немам шта да радим – довиђења\n"
+
+#: src/wget.c:1362
+msgid "Wget2 built without thread support. Disabling progress report\n"
+msgstr ""
+"„Wget2“ је изграђен без подршке нити. Искључујем извештај напредовања\n"
+
+#: src/wget.c:1412
+#, c-format
+msgid "Quota of %lld bytes reached - stopping.\n"
+msgstr "Квота од %lld бајта је достигнута – заустављам.\n"
+
+#: src/wget.c:1432
+#, c-format
+msgid "Failed to wait for downloader #%d (%d %d)\n"
+msgstr "Нисам успео да чекам на преузимача #%d (%d %d)\n"
+
+#: src/wget.c:1437
+#, c-format
+msgid "Downloaded: %d files, %s bytes, %d redirects, %d errors\n"
+msgstr ""
+"Преузето је: датотека – %d, бајтова – %s, преусмерења – %d, грешака – %d\n"
+
+#: src/wget.c:1463
+msgid ""
+"--convert-links and --convert-file-only cannot be used together, error\n"
+msgstr ""
+"„--convert-links“ и „--convert-file-only“ се не могу користити заједно, "
+"грешка\n"
+
+#: src/wget.c:1559
+#, c-format
+msgid "Failed to connect: %s\n"
+msgstr "Нисам успео да се повежем: %s\n"
+
+#: src/wget.c:1785
+msgid "The file is already fully retrieved; nothing to do.\n"
+msgstr "Датотека је већ потпуно преузета; немам шта да радим.\n"
+
+#: src/wget.c:1832
+#, c-format
+msgid "File '%s' not modified on server. Omitting download"
+msgstr "Датотека „%s“ није измењена на серверу. Изостављам преузимање"
+
+#: src/wget.c:1869
+#, c-format
+msgid "Not scanning '%s' (known ETag)\n"
+msgstr "Не прегледам „%s“ (позната ЕОзнака)\n"
+
+#: src/wget.c:1916
+#, c-format
+msgid "The sizes do not match (local %lld, remote %zu) -- retrieving"
+msgstr "Величине се не поклапају (локална %lld, удаљена %zu) – довлачим"
+
+#: src/wget.c:2059
+#, c-format
+msgid "File length %llu - remove job\n"
+msgstr "Дужина датотеке %llu – укалњам посао\n"
+
+#: src/wget.c:2061
+msgid "No download mirrors found - remove job\n"
+msgstr "Нисам нашао огледала преузимања – уклањам посао\n"
+
+#: src/wget.c:2174
+msgid "Couldn't determine base file to delete for failed verification\n"
+msgstr ""
+"Не могу да одредим датотеку основе да обришем за неуспело потврђивање\n"
+
+#: src/wget.c:2178
+#, c-format
+msgid "Signature for file %s successfully verified\n"
+msgstr "Потпис за датотеку „%s“ је успешно потврђен\n"
+
+#: src/wget.c:2194
+msgid "Should not have remaining extensions!\n"
+msgstr "Не могу имати преостала проширења!\n"
+
+#: src/wget.c:2208
+msgid "File name for signature checking not assigned to job!\n"
+msgstr "Назив датотеке за проверу потписа није додељен послу!\n"
+
+#: src/wget.c:2210
+msgid "Cannot check the signature on a signature!\n"
+msgstr "Не могу да проверим потпис на потпису!\n"
+
+#: src/wget.c:2424
+#, c-format
+msgid "Unhandled action %d\n"
+msgstr "Неодрадива радња %d\n"
+
+#: src/wget.c:2532
+#, c-format
+msgid "URL '%.*s' not followed (conversion failed)\n"
+msgstr "Адреса „%.*s“ није праћена (претварање није успело)\n"
+
+#: src/wget.c:2540
+#, c-format
+msgid "Cannot resolve relative URI %.*s\n"
+msgstr "Не могу да решим релативну путању '%.*s'\n"
+
+#: src/wget.c:2562
+msgid "set by user"
+msgstr "корисник је подесио"
+
+#: src/wget.c:2567 src/wget.c:2575 src/wget.c:2583
+msgid "set by BOM"
+msgstr "постављено ОРБ-ом"
+
+#: src/wget.c:2589
+msgid "set by server response"
+msgstr "одговор сервера је подесио"
+
+#: src/wget.c:2598
+#, c-format
+msgid "Convert non-ASCII encoding '%s' (%s) to UTF-8\n"
+msgstr "Претвара не-АСКРИ кодирање „%s“ (%s) у УТФ-8\n"
+
+#: src/wget.c:2602
+#, c-format
+msgid "Link conversion disabled for '%s'\n"
+msgstr "Претварање везе је искључено за „%s“\n"
+
+#: src/wget.c:2605
+#, c-format
+msgid "Filename conversion disabled for '%s'\n"
+msgstr "Претварање назива датотеке је искључено за „%s“\n"
+
+#: src/wget.c:2609
+#, c-format
+msgid "Failed to convert non-ASCII encoding '%s' (%s) to UTF-8, skip parsing\n"
+msgstr ""
+"Нисам успео да претворим не-АСКРИ кодирање „%s“ (%s) у УТФ-8, прескачем "
+"обраду\n"
+
+#: src/wget.c:2622
+msgid "set by document"
+msgstr "документ је поставио"
+
+#: src/wget.c:2625
+msgid "default, encoding not specified"
+msgstr "основно, кодирање није наведено"
+
+#: src/wget.c:2629
+#, c-format
+msgid "URI content encoding = '%s' (%s)\n"
+msgstr "Кодирање садржаја путање = „%s“ (%s)\n"
+
+#: src/wget.c:2637
+#, c-format
+msgid "BASE '%.*s' not usable (missing absolute base URI)\n"
+msgstr "БАЗА „%.*s“ није употребљива (недостаје апсолутна путања базе)\n"
+
+#: src/wget.c:2644
+#, c-format
+msgid "Cannot resolve BASE URI %.*s\n"
+msgstr "Не могу да решим путању БАЗЕ „%.*s“\n"
+
+#: src/wget.c:2656
+#, c-format
+msgid "URL '%.*s' not followed (action/formaction attribute)\n"
+msgstr "Адреса „%.*s“ није праћена (атрибут радње/формрадње)\n"
+
+#: src/wget.c:2670
+#, c-format
+msgid "URL '%.*s' not followed (page requisites + level)\n"
+msgstr "Адреса „%.*s“ није праћена (реквизити странице + ниво)\n"
+
+#: src/wget.c:2681 src/wget.c:3013
+#, c-format
+msgid "URL '%.*s' not followed (missing base URI)\n"
+msgstr "Адреса „%.*s“ није праћена (недостаје основа путање)\n"
+
+#: src/wget.c:2745 src/wget.c:2876
+#, c-format
+msgid "found %d url(s) (base=%s)\n"
+msgstr "нађох %d адресе (основа=%s)\n"
+
+#: src/wget.c:2753 src/wget.c:2849
+#, c-format
+msgid "URL '%.*s' not followed (not matching sitemap location)\n"
+msgstr "Адреса „%.*s“ није праћена (не одговара место мапе сајта)\n"
+
+#: src/wget.c:2760 src/wget.c:2777 src/wget.c:2890
+#, c-format
+msgid "URL '%.*s' not followed (already known)\n"
+msgstr "Адреса „%.*s“ није праћена (већ је позната)\n"
+
+#: src/wget.c:2768
+#, c-format
+msgid "found %d sitemap url(s) (base=%s)\n"
+msgstr "нађох %d мапе сајта (основа=%s)\n"
+
+#: src/wget.c:2810
+#, c-format
+msgid "Can't scan '%s' because no libz support enabled at compile time\n"
+msgstr ""
+"Не могу да прегледам „%s“ јер није укључена „libz“ подршка у време "
+"превођења\n"
+
+#: src/wget.c:2883
+#, fuzzy, c-format
+msgid "URL '%.*s' not followed (not matching base)\n"
+msgstr "Адреса „%.*s“ није праћена (не одговара место мапе сајта)\n"
+
+#: src/wget.c:2947
+#, c-format
+msgid "Invalid file length %llu\n"
+msgstr "Неисправна дужина датотеке %llu\n"
+
+#: src/wget.c:2950
+msgid "No download mirrors found\n"
+msgstr "Нисам нашао огледала преузимања\n"
+
+#: src/wget.c:2999 src/wget.c:3027 src/wget.c:3046
+#, c-format
+msgid "URI content encoding = '%s'\n"
+msgstr "Кодирање садржаја путање = „%s“\n"
+
+#: src/wget.c:3119
+#, c-format
+msgid "Failed to set file date (%d)\n"
+msgstr "Нисам успео да поставим датум датотеке (%d)\n"
+
+#: src/wget.c:3266
+#, c-format
+msgid "Failed to write to STDOUT (%zu, errno=%d)\n"
+msgstr "Нисам успео да пишем на СТНД_ИЗЛ (%zu, бр_грешке=%d)\n"
+
+#: src/wget.c:3365
+#, c-format
+msgid "Failed to rename %s to %s (errno=%d)\n"
+msgstr "Нисам успео да преименујем „%s“ у „%s“ (бр_грешке=%d)\n"
+
+#: src/wget.c:3388 src/wget.c:3394
+#, c-format
+msgid "Failed to load partial content from '%s' (errno=%d)\n"
+msgstr "Нисам успео да учитам делимични садржај из „%s“ (бр_грешке=%d)\n"
+
+#: src/wget.c:3403
+#, c-format
+msgid "Failed to unlink '%s' (errno=%d)\n"
+msgstr "Нисам успео да развежем „%s“ (бр_грешке=%d)\n"
+
+#: src/wget.c:3421
+#, c-format
+msgid "Saving ']8;;file://%s%s\\%s]8;;\\'\n"
+msgstr "Чувам „]8;;file://%s%s\\%s]8;;\\“\n"
+
+#: src/wget.c:3425
+#, c-format
+msgid "Saving '%s'\n"
+msgstr "Чувам „%s“\n"
+
+#: src/wget.c:3430
+#, c-format
+msgid "Failed to write file %s (%zd, errno=%d)\n"
+msgstr "Нисам успео да запишем датотеку „%s“ (%zd, бр_грешке=%d)\n"
+
+#: src/wget.c:3438
+#, c-format
+msgid "File '%s' already there; not retrieving.\n"
+msgstr "Датотека „%s“ је већ тамо; не довлачим је.\n"
+
+#: src/wget.c:3444
+#, c-format
+msgid "Directory / file name clash - not saving '%s'\n"
+msgstr "Судар директоријума / назива датотеке – нећу сачувати „%s“\n"
+
+#: src/wget.c:3446
+#, c-format
+msgid "Failed to open '%s' (%d)\n"
+msgstr "Нисам успео да отворим „%s“ (%d)\n"
+
+#: src/wget.c:3458
+#, c-format
+msgid "Failed to save extended attribute %s\n"
+msgstr "Нисам успео да сачувам проширени атрибут „%s“\n"
+
+#: src/wget.c:3639
+#, c-format
+msgid ""
+"# got header %zu bytes:\n"
+"%s\n"
+msgstr ""
+"# добих заглавље %zu бајта:\n"
+"%s\n"
+
+#: src/wget.c:3713
+#, c-format
+msgid "Failed to open .netrc file '%s' (%d): %s\n"
+msgstr "Нисам успео да отворим „.netrc“ датотеку „%s“ (%d): %s\n"
+
+#: src/wget.c:4045
+#, c-format
+msgid "Failed to fsync errno=%d\n"
+msgstr "Нисам успео да одрадим „fsync“ бр_грешке=%d\n"
+
+#: src/wget.c:4353
+#, c-format
+msgid "Continuing in background, pid %lu.\n"
+msgstr "Настављам у позадини, пид %lu.\n"
+
+#: src/wget.c:4355 src/wget.c:4421
+#, c-format
+msgid "Output will be written to %s.\n"
+msgstr "Излаз ће бити уписан у „%s“.\n"
+
+#: src/wget.c:4381
+msgid "fake_fork_child() failed\n"
+msgstr "„fake_fork_child()“ није успело\n"
+
+#: src/wget.c:4389
+msgid "fake_fork() failed\n"
+msgstr "„fake_fork()“ није успело\n"
+
+#: src/wget.c:4415
+#, c-format
+msgid "Failed to fork (%d)\n"
+msgstr "Нисам успео да испелцујем (%d)\n"
+
+#: src/wget.c:4419
+#, c-format
+msgid "Continuing in background, pid %d.\n"
+msgstr "Настављам у позадини, пид %d.\n"
+
+#: src/wget.c:4429
+msgid "Failed to redirect stdin to /dev/null.\n"
+msgstr "Нисам успео да преусмерим стандардни улаз на „/dev/null“.\n"
+
+#: src/wget.c:4431
+msgid "Failed to redirect stdout to /dev/null.\n"
+msgstr "Нисам успео да преусмерим стандардни излаз на „/dev/null“.\n"
+
+#: src/wget.c:4433
+msgid "Failed to redirect stderr to /dev/null.\n"
+msgstr "Нисам успео да преусмерим стандардну грешку на „/dev/null“.\n"
+
+#, c-format
+#~ msgid "  %.*s -> %s\n"
+#~ msgstr "  %.*s → %s\n"
+
+#, c-format
+#~ msgid "       -> %s\n"
+#~ msgstr "       → %s\n"
+
+#~ msgid "Certificate revoked by OCSP\n"
+#~ msgstr "Уверење је опозвано путем „OCSP“-а\n"
+
+#~ msgid "Fetched cookies from '%s'\n"
+#~ msgstr "Довукох колачиће са „%s“\n"
+
+#~ msgid "Saved %d cookie%s into '%s'\n"
+#~ msgstr "Сачувах %d колачић%s у „%s“\n"
+
+#~ msgid "No cookies to save. Table is empty.\n"
+#~ msgstr "Нема колачића за чување. Табела је празна.\n"
+
+#~ msgid "u8_tolower(%s) failed (%d)\n"
+#~ msgstr "„u8_tolower(%s)“ није успело (%d)\n"
+
+#~ msgid "%s: Hash type '%s' not supported by linked crypto engine\n"
+#~ msgstr "%s: Хеш врста „%s“ није подржана свезаним погоном шифровања\n"
+
+#~ msgid "Fetched HSTS data from '%s'\n"
+#~ msgstr "Довукох „HSTS“ податке са „%s“\n"
+
+#~ msgid "Saved %d HSTS entr%s into '%s'\n"
+#~ msgstr "Сачувах %d „HSTS“ унос%s у „%s“\n"
+
+#~ msgid "No HSTS entries to save. Table is empty.\n"
+#~ msgstr "Нема „HSTS“ уноса за чување. Табела је празна.\n"
+
+#~ msgid "Fetched OCSP hosts from '%s'\n"
+#~ msgstr "Довукох „OCSP“ домаћине са „%s“\n"
+
+#~ msgid "Fetched OCSP fingerprints from '%s'\n"
+#~ msgstr "Довукох „OCSP“ отиске са „%s“\n"
+
+#~ msgid "Saved OCSP hosts to '%s'\n"
+#~ msgstr "Сачувах „OCSP“ домаћине у „%s“\n"
+
+#~ msgid "Saved OCSP fingerprints to '%s'\n"
+#~ msgstr "Сачувах „OCSP“ отиске у „%s“\n"
+
+#~ msgid "Fetched TLS session data from '%s'\n"
+#~ msgstr "Довукох „TLS“ податке са „%s“\n"
+
+#~ msgid "Saved %d TLS session entr%s into '%s'\n"
+#~ msgstr "Сачувах %d „TLS“ сесије унос%s у „%s“\n"
+
+#~ msgid "No TLS session entries to save. Table is empty.\n"
+#~ msgstr "Нема „TLS“ уноса за чување. Табела је празна.\n"
+
+#~ msgid "Stats format not supported by %s stats \n"
+#~ msgstr "Формат статистике није подржан од „%s“ статистике \n"
+
+#~ msgid "File could not be opened %s for %s stats\n"
+#~ msgstr "Датотека не може бити отворена „%s“ за „%s“ статистику\n"
+
+#~ msgid "%s stats saved in %s\n"
+#~ msgstr "„%s“ статистика је сачувана у „%s“\n"
+
+#~ msgid "Failed to open '%s' (errno=%d): %s\n"
+#~ msgstr "Нисам успео да отворим „%s“ (бр_грешке=%d): %s\n"
